@@ -29,18 +29,23 @@ It's the companion to our field guide, *Your Team of 4 Is Actually 40*, which ca
 
 ## What's in here
 
-Skills are being added after the webinar. Planned:
+Six skills and two one-page workflow cards. Each skill is a folder you can drop into your agent.
 
 | Skill | What it does | Practice |
 |---|---|---|
-| `goal-cascade` | Writes the goal for each level and the three-sentence task brief | 3 |
-| `checkpoint-designer` | Turns a workflow into steps with yes/no checks and decision rules | 2 |
-| `pre-mortem` | Runs "it failed, what went wrong", "what could go wrong" and devil's advocate, matched to the stakes | 5 |
-| `completed-staff-work` | Brings a decision up as the problem, the options and a recommendation | 2 |
-| `skill-from-session` | Turns a long correction session into a new or updated skill | 4 |
-| `brand-voice-review` | Checks a draft against your voice rules and fixes the flagged lines | 4 |
+| [`goal-cascade`](skills/goal-cascade) | Writes the goal for each level and the three-sentence task brief | 3 |
+| [`checkpoint-designer`](skills/checkpoint-designer) | Turns a workflow into steps with yes/no checks and decision rules | 2 |
+| [`pre-mortem`](skills/pre-mortem) | Runs "it failed, what went wrong", "what could go wrong" and devil's advocate, matched to the stakes | 5 |
+| [`completed-staff-work`](skills/completed-staff-work) | Brings a decision up as the problem, the options and a recommendation | 2 |
+| [`skill-from-session`](skills/skill-from-session) | Turns a long correction session into a new or updated skill | 4 |
+| [`brand-voice-review`](skills/brand-voice-review) | Checks a draft against your voice rules and fixes the flagged lines | 4 |
 
-Plus two one-page workflow cards, one for team leads and one for the people doing the work.
+Two one-page workflow cards, one for team leads and one for the people doing the work:
+
+- [Card A: Team lead](cards/team-lead.md)
+- [Card B: Individual contributor](cards/individual-contributor.md)
+
+There's also a [30-minute agenda for a team AI practice meeting](templates/ai-practice-meeting-agenda.md).
 
 ## How to use a skill
 
@@ -56,6 +61,8 @@ it, then plain instructions.
   attach the one you need to the chat.
 
 Name the skill in your prompt when it matters. A short request may not pick it up on its own.
+
+To check a skill you've edited against the format's limits, run `python3 scripts/validate.py`. It checks the name, the folder match, the description length and the version fields.
 
 ## Make them yours
 
