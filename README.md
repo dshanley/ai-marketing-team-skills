@@ -47,6 +47,8 @@ Two one-page workflow cards, one for team leads and one for the people doing the
 
 There's also a [30-minute agenda for a team AI practice meeting](templates/ai-practice-meeting-agenda.md).
 
+No setup at all? [Eleven copy-paste prompts](prompts/agent-prompts.md) cover the same ground: goal cascade, checkpoints, a decision log, scheduling and running the practice meeting, and your first week.
+
 ## How to use a skill
 
 Each skill is a folder with a `SKILL.md` file in the open
